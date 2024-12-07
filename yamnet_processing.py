@@ -12,7 +12,7 @@ import soundfile as sf
 import params as yamnet_params
 import yamnet as yamnet_model
 
-EVENT_THRESHOLDS = {'Silence': 0.5, 'Music': 0.1, 'Speech': 0.5, 'Other' : 0.3}
+EVENT_THRESHOLDS = {'Silence': 0.5, 'Music': 0.1, 'Speech': 0.5, 'Gunshot, gunfire': 0.1, 'Machine gun':0.1, 'Fusillade':0.1, 'Explosion':0.1, 'Boom':0.1, 'Explosion':0.1, 'Other' : 0.3}
 
 TMP_AUDIO_FILE = "/tmp/audio.wav"
 VIDEO_FILE_EXTENSIONS = [".mp4",".avi",".mpg",".mpeg",".m4p",".m4v",".ogg",".mpe",".mpv"] # not complete, extend to your needs
