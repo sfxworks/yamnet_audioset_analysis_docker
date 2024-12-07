@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:latest-gpu
+FROM tensorflow/tensorflow:2.3.0-gpu
 
 RUN apt-get update && apt-get install -y libsndfile1 git ffmpeg && apt-get autoclean && apt-get autoremove && rm -rf /var/lib/apt/lists/*
 
