@@ -1,3 +1,4 @@
 resampy
 soundfile
 tf_keras
+tensorflow[and-cuda]
